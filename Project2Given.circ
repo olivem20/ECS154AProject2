@@ -123,7 +123,7 @@ end type_architecture;
   <circuit name="main">
     <a name="circuit" val="main"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
-    <a name="simulationFrequency" val="1.0"/>
+    <a name="simulationFrequency" val="64000.0"/>
     <comp lib="0" loc="(1030,430)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="Valid"/>
@@ -1530,10 +1530,6 @@ end type_architecture;
       <a name="labelfont" val="SansSerif bold 12"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="0" loc="(40,290)" name="Clock">
-      <a name="facing" val="north"/>
-      <a name="phaseOffset" val="1"/>
-    </comp>
     <comp lib="0" loc="(510,190)" name="Tunnel">
       <a name="label" val="C0"/>
       <a name="labelfont" val="SansSerif bold 12"/>
@@ -1666,7 +1662,6 @@ end type_architecture;
     <wire from="(350,40)" to="(370,40)"/>
     <wire from="(350,460)" to="(390,460)"/>
     <wire from="(350,70)" to="(370,70)"/>
-    <wire from="(40,280)" to="(40,290)"/>
     <wire from="(450,190)" to="(510,190)"/>
     <wire from="(450,280)" to="(510,280)"/>
     <wire from="(450,370)" to="(510,370)"/>
@@ -1718,35 +1713,53 @@ end type_architecture;
       <a name="label" val="C3"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
-    <comp lib="0" loc="(200,250)" name="Tunnel">
+    <comp lib="0" loc="(280,130)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="C2"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(280,210)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="C3"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(340,130)" name="Tunnel">
+      <a name="label" val="U"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(340,330)" name="Tunnel">
       <a name="facing" val="south"/>
       <a name="label" val="CLK"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
-    <comp lib="0" loc="(200,270)" name="Pin">
+    <comp lib="0" loc="(340,350)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="north"/>
       <a name="label" val="CLK"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
-    <comp lib="0" loc="(250,120)" name="Tunnel">
+    <comp lib="0" loc="(440,210)" name="Tunnel">
+      <a name="label" val="L"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(460,100)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="L"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
-    <comp lib="0" loc="(250,150)" name="Tunnel">
+    <comp lib="0" loc="(460,130)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="U"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
-    <comp lib="0" loc="(260,120)" name="Pin">
+    <comp lib="0" loc="(470,100)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="L"/>
       <a name="labelfont" val="SansSerif bold 12"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="0" loc="(260,150)" name="Pin">
+    <comp lib="0" loc="(470,130)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="U"/>
@@ -1757,8 +1770,10 @@ end type_architecture;
     <wire from="(130,150)" to="(150,150)"/>
     <wire from="(130,180)" to="(150,180)"/>
     <wire from="(130,210)" to="(150,210)"/>
-    <wire from="(200,250)" to="(200,270)"/>
-    <wire from="(250,120)" to="(260,120)"/>
-    <wire from="(250,150)" to="(260,150)"/>
+    <wire from="(280,130)" to="(340,130)"/>
+    <wire from="(280,210)" to="(440,210)"/>
+    <wire from="(340,330)" to="(340,350)"/>
+    <wire from="(460,100)" to="(470,100)"/>
+    <wire from="(460,130)" to="(470,130)"/>
   </circuit>
 </project>
