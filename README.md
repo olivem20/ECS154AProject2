@@ -10,8 +10,11 @@ This the current status of the project ...
 The project fails to function properly in ...
 
 ## References
-* [Build an XOR gate from AND/NOT](https://electronics.stackexchange.com/questions/487529/build-an-xor-gate-from-and-not)
-* [Some other link](https://stackoverflow.com)
+* https://www.youtube.com/watch?v=HQwQZ030q9c
+   * I used this to help me understand the clock function for problem 2
+* https://www.youtube.com/watch?v=wsVD-gjdanM
+   * I used this to help me with the D Flip-Flop for problem 2
+
 
 ## Generative AI Use
 I used ChatGPT for Prompt 1, and ZZZZZ for Prompt 2....
