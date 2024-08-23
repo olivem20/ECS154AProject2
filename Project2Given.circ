@@ -1764,32 +1764,33 @@ end type_architecture;
       <a name="label" val="C3"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
-    <comp lib="0" loc="(430,180)" name="Tunnel">
+    <comp lib="0" loc="(400,220)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="CLK"/>
+      <a name="labelfont" val="SansSerif bold 12"/>
+    </comp>
+    <comp lib="0" loc="(720,200)" name="Tunnel">
       <a name="label" val="L"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
-    <comp lib="0" loc="(430,340)" name="Tunnel">
-      <a name="label" val="U"/>
-      <a name="labelfont" val="SansSerif bold 12"/>
-    </comp>
-    <comp lib="0" loc="(530,120)" name="Tunnel">
+    <comp lib="0" loc="(840,110)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="L"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
-    <comp lib="0" loc="(530,150)" name="Tunnel">
+    <comp lib="0" loc="(840,140)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="U"/>
       <a name="labelfont" val="SansSerif bold 12"/>
     </comp>
-    <comp lib="0" loc="(540,120)" name="Pin">
+    <comp lib="0" loc="(850,110)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="L"/>
       <a name="labelfont" val="SansSerif bold 12"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="0" loc="(540,150)" name="Pin">
+    <comp lib="0" loc="(850,140)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="U"/>
@@ -1798,12 +1799,17 @@ end type_architecture;
     </comp>
     <comp lib="1" loc="(300,120)" name="NOT Gate"/>
     <comp lib="1" loc="(300,200)" name="NOT Gate"/>
+    <comp lib="1" loc="(300,280)" name="NOT Gate"/>
     <comp lib="1" loc="(300,360)" name="NOT Gate"/>
     <comp lib="1" loc="(370,180)" name="AND Gate">
       <a name="inputs" val="4"/>
     </comp>
     <comp lib="1" loc="(370,340)" name="AND Gate">
       <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="1" loc="(630,200)" name="AND Gate"/>
+    <comp lib="4" loc="(440,170)" name="D Flip-Flop">
+      <a name="appearance" val="logisim_evolution"/>
     </comp>
     <wire from="(130,120)" to="(150,120)"/>
     <wire from="(130,150)" to="(150,150)"/>
@@ -1814,12 +1820,13 @@ end type_architecture;
     <wire from="(260,160)" to="(310,160)"/>
     <wire from="(260,200)" to="(270,200)"/>
     <wire from="(260,240)" to="(320,240)"/>
-    <wire from="(260,280)" to="(320,280)"/>
+    <wire from="(260,280)" to="(270,280)"/>
     <wire from="(260,320)" to="(310,320)"/>
     <wire from="(260,360)" to="(270,360)"/>
     <wire from="(260,400)" to="(320,400)"/>
     <wire from="(300,120)" to="(320,120)"/>
     <wire from="(300,200)" to="(310,200)"/>
+    <wire from="(300,280)" to="(320,280)"/>
     <wire from="(300,360)" to="(310,360)"/>
     <wire from="(310,160)" to="(310,170)"/>
     <wire from="(310,170)" to="(320,170)"/>
@@ -1834,8 +1841,13 @@ end type_architecture;
     <wire from="(320,280)" to="(320,320)"/>
     <wire from="(320,360)" to="(320,400)"/>
     <wire from="(370,180)" to="(430,180)"/>
-    <wire from="(370,340)" to="(430,340)"/>
-    <wire from="(530,120)" to="(540,120)"/>
-    <wire from="(530,150)" to="(540,150)"/>
+    <wire from="(370,340)" to="(540,340)"/>
+    <wire from="(400,220)" to="(430,220)"/>
+    <wire from="(490,180)" to="(580,180)"/>
+    <wire from="(540,220)" to="(540,340)"/>
+    <wire from="(540,220)" to="(580,220)"/>
+    <wire from="(630,200)" to="(720,200)"/>
+    <wire from="(840,110)" to="(850,110)"/>
+    <wire from="(840,140)" to="(850,140)"/>
   </circuit>
 </project>
