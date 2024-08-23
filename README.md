@@ -14,7 +14,10 @@ The project fails to function properly in ...
    * I used this to help me understand the clock function for problem 2
 * https://www.youtube.com/watch?v=wsVD-gjdanM
    * I used this to help me with the D Flip-Flop for problem 2
-
+* https://www.youtube.com/watch?v=jhtIKnH4a0c
+   * counter in part 3
+* https://www.youtube.com/watch?v=5TfAdThMqHE
+   * used this for register in part 3
 
 ## Generative AI Use
 I used ChatGPT for Prompt 1, and ZZZZZ for Prompt 2....

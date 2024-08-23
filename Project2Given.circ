@@ -123,7 +123,7 @@ end type_architecture;
   <circuit name="main">
     <a name="circuit" val="main"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
-    <a name="simulationFrequency" val="64000.0"/>
+    <a name="simulationFrequency" val="1000.0"/>
     <comp lib="0" loc="(1030,430)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="Valid"/>
