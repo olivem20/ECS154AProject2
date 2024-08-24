@@ -1,13 +1,13 @@
 # Project 2 README
 
-Student 1: Full Name 1 (123456789)
-Student 2: Full Name 2 (123456798)
+Student 1: Olive Maunupau (918816205)
+Student 2: Bipasha Sengupta (918004826)
 
 ## Project Status
-This the current status of the project ...
+1 is done. 2 is outputting for more than 1 cycle, 3 is not working.
 
 ## Known Issues
-The project fails to function properly in ...
+The project fails to function properly in question 2 and 3
 
 ## References
 * https://www.youtube.com/watch?v=HQwQZ030q9c
